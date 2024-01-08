@@ -1,0 +1,45 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 25 Jan 2021 17:57:36 at https://citizentrustonlinebk.com +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://citizentrustonlinebk.com -O1 "C:\Users\user\Desktop\ubb" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+18:01:00	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/https://fonts.googleapis.com/css?family=Lato:400,400i,700%7COpen+Sans (from https://citizentrustonlinebk.com/)
+18:01:00	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/https://fonts.googleapis.com/css?family=Expletus+Sans (from https://citizentrustonlinebk.com/)
+18:01:00	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/sweetalert-js/sweetalert.php (from https://citizentrustonlinebk.com/)
+18:01:00	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/sweetalert-js/sweetalert.min.php (from https://citizentrustonlinebk.com/)
+18:01:00	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/sweetalert-js/sweetalert-2.php (from https://citizentrustonlinebk.com/)
+18:01:00	Error: 	"Forbidden" (403) at link translate.google.com/translate_a/element.js?cb=googleTranslateElementInit (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/mobile_slider.png (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/security/security__info-bg.png (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/https://www.tradingview.com/ (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/bg_reg.jpg (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/javascript:; (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/www.facebook.php (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/www.google.php (from https://citizentrustonlinebk.com/)
+18:01:52	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/forex-bg.jpg (from https://citizentrustonlinebk.com/)
+18:02:36	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/facebook.php (from https://citizentrustonlinebk.com/contact-us.php)
+18:02:36	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/google.php (from https://citizentrustonlinebk.com/contact-us.php)
+18:02:36	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/theMouse.png (from https://citizentrustonlinebk.com/Online-Banking.php)
+18:02:36	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/lock-open.png (from https://citizentrustonlinebk.com/Online-Banking.php)
+18:02:36	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/modal/internet-banking.gif (from https://citizentrustonlinebk.com/Online-Banking.php)
+18:02:36	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/frgtPass.png (from https://citizentrustonlinebk.com/Online-Banking.php)
+18:02:45	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/images/about/trading-against-life.php (from https://citizentrustonlinebk.com/about.php)
+18:02:45	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/images/about/battery-life.php (from https://citizentrustonlinebk.com/about.php)
+18:02:45	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/main/images/security/security__footer-bg.php (from https://citizentrustonlinebk.com/about.php)
+18:02:45	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/xbg_reg.jpg.pagespeed.ic.ufPUIaGYX7.php (from https://citizentrustonlinebk.com/careers.php)
+18:02:45	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/xmobile_slider.png.pagespeed.ic.3nqiv0B8PA.php (from https://citizentrustonlinebk.com/careers.php)
+18:02:45	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/xlock-open.png.pagespeed.ic.AoSbGasDJO.php (from https://citizentrustonlinebk.com/careers.php)
+18:02:45	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/modal/internet-banking.gif.pagespeed.ce.zSYV8PG9gk.php (from https://citizentrustonlinebk.com/careers.php)
+18:04:35	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/register.html (from https://citizentrustonlinebk.com/Mobile-Wallet.php)
+18:04:53	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/contact-us.html (from https://citizentrustonlinebk.com/Mobile-Wallet.php)
+18:04:54	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/login.html (from https://citizentrustonlinebk.com/Mobile-Wallet.php)
+18:04:55	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/xbg_reg.jpg.pagespeed.ic.ufPUIaGYX7.html (from https://citizentrustonlinebk.com/Mobile-Wallet.php)
+18:05:14	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/xmobile_slider.png.pagespeed.ic.3nqiv0B8PA.html (from https://citizentrustonlinebk.com/Mobile-Wallet.php)
+18:05:15	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/slider/xlock-open.png.pagespeed.ic.AoSbGasDJO.html (from https://citizentrustonlinebk.com/Mobile-Wallet.php)
+18:05:16	Error: 	"Not Found" (404) at link https://citizentrustonlinebk.com/images/modal/internet-banking.gif.pagespeed.ce.zSYV8PG9gk.html (from https://citizentrustonlinebk.com/Mobile-Wallet.php)
+
+HTTrack Website Copier/3.49-2 mirror complete in 19 minutes 41 seconds : 404 links scanned, 369 files written (10185460 bytes overall) [9575616 bytes received at 8108 bytes/sec], 927283 bytes transferred using HTTP compression in 300 files, ratio 24%
+(34 errors, 0 warnings, 0 messages)

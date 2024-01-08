@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.crisp.chat	TRUE	/	FALSE	1999999999	__cfduid	db6dffc6b7edb99c1843a895b00d718721611626301
+client.crisp.chat	TRUE	/	FALSE	1999999999	SameSite	Lax
+
