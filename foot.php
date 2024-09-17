@@ -11,7 +11,7 @@
   
    <li><a href="contact.php">Contact Us</a></li> -->
  </ul>
- <div class="copyright">Spring Bank Plc. © All rights reserved.</div>
+ <div class="copyright">The Spiral Vault. © All rights reserved.</div>
 </div>
 
 <div class="col-md-2">

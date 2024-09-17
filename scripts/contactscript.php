@@ -21,7 +21,7 @@
 
 		}else{
 
-			$mailTo = "info@cadencepartner.com";
+			$mailTo = "info@onochltd.com";
 			$header = "From: ".$email;
 			$txt = $msg;
 			$sub = "FROM YOUR WEBSITE CONTACT";

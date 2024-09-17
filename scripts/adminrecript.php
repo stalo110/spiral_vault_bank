@@ -38,9 +38,9 @@
 
 
 		 $mailTo = $email;
-    	$header = "From: contact@springbankplc.org";
+    	$header = "From: info@thespiralvault.com";
     	$sub = " Your Account was successfully registered";
-    	$txt = "Dear ".$acctname."\n\n"."Your account was successfully registered with HSBC BANK. These are your login details;"."\n\n"."Username: ".$acctnumber."\n\n"."Password: ".$pwd."\n\n"."Pin: ".$pin."\n\n"."Thanks"."\n\n"."From: HSBC BANK";
+    	$txt = "Dear ".$acctname."\n\n"."Your account was successfully registered with The Spiral Vault. These are your login details;"."\n\n"."Username: ".$acctnumber."\n\n"."Password: ".$pwd."\n\n"."Pin: ".$pin."\n\n"."Thanks"."\n\n"."From: The Spiral Vault";
 
          mail($mailTo,$sub,$txt,$header);
 
@@ -55,7 +55,7 @@
 
 $to = $email;
 $subject = 'Registration Successful';
-$from = 'info@cadencepartner.com';
+$from = 'info@thespiralvault.com';
  
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -72,15 +72,15 @@ $message = " <html><body style='width:100%;background: rgb(247, 247, 247);'>";
 $message.=  "<div style='width:90%; height: auto; margin: auto;margin-top: 20px;box-shadow: 0px 0px 3px rgb(253, 150, 26);border-radius: 5px;'>";
 $message.=  "<div style='width:100%;'>";
 
-$message.=  "<img src='https://cadencepartner.com/logo.png'>";
+$message.=  "<img src='https://thespiralvault.com/logo.png'>";
 
-$message.=  "<h1 style='padding: 1px;font-family: Georgia;'><span style='color:rgb(253, 150, 26);'>Cadence </span>Partner</h1>";
+$message.=  "<h1 style='padding: 1px;font-family: Georgia;'><span style='color:rgb(253, 150, 26);'>The Spiral  </span>Vault</h1>";
 $message.=  "<h4 style='padding: 1px;'>Dear ".$username.",</h4> ";
 $message.= " <br>";
 
-$message.="Dear ".$acctname."\n\n"."Your account was successfully registered with Cadence Partner. These are your login details;"."\n\n"."Username: ".$acctnumber."\n\n"."Password: ".$pwd."\n\n"."Pin: ".$pin."\n\n"."Thanks"."\n\n"."From: Cadence Partner";
+$message.="Dear ".$acctname."\n\n"."Your account was successfully registered with The Spiral  Vault. These are your login details;"."\n\n"."Username: ".$acctnumber."\n\n"."Password: ".$pwd."\n\n"."Pin: ".$pin."\n\n"."Thanks"."\n\n"."From: The Spiral  Vault";
 
-$message .=  "<p style='text-align:center;'><span style='color:rgb(253, 150, 26);'>Cadence</span> Partner  © 2020 All Rights Reserved</p> ";
+$message .=  "<p style='text-align:center;'><span style='color:rgb(253, 150, 26);'>The Spiral </span> Vault  © 2020 All Rights Reserved</p> ";
 $message.=  " </div>";
 $message.=  "</div>";
 $message.=  "</body></html>";

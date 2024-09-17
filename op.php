@@ -86,10 +86,12 @@ session_start();
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             
-            <a class="collapse-item" href="adminreg.php">Register New Customer</a>
+          <a class="collapse-item" href="adminreg.php">Register New Customer</a>
             <a class="collapse-item" href="op.php">Credit and Debit</a>
             <a class="collapse-item" href="update.php">Update and Delete</a>
             <a class="collapse-item" href="Transferupdate.php">Update Transfer Request</a>
+            <a class="collapse-item" href="update_address.php">Update Company Address</a>
+            <a class="collapse-item" href="update-admin-password.php">Change Admin Password</a>
           </div>
         </div>
       </li>

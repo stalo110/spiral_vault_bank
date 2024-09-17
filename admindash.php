@@ -76,6 +76,8 @@
             <a class="collapse-item" href="op.php">Credit and Debit</a>
             <a class="collapse-item" href="update.php">Update and Delete</a>
             <a class="collapse-item" href="Transferupdate.php">Update Transfer Request</a>
+            <a class="collapse-item" href="update_address.php">Update Company Address</a>
+            <a class="collapse-item" href="update-admin-password.php">Change Admin Password</a>
           </div>
         </div>
       </li>
@@ -91,19 +93,24 @@
       </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
-      <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Account settings</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-          <form method="POST" action="scripts/adminlogout.php">
-            <input class="btn btn-primary btn-user btn-block" type="submit" name="logout" value="logout" >
-          </form>
-           
-        </div>
-      </li>
+<!-- Nav Item - Pages Collapse Menu -->
+<li class="nav-item">
+  <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+    <i class="fas fa-fw fa-folder"></i>
+    <span>Account settings</span>
+  </a>
+  <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+    <div class="bg-white py-2 collapse-inner rounded">
+      <!-- Logout form -->
+      <form method="POST" action="scripts/adminlogout.php">
+        <input class="btn btn-primary btn-user btn-block" type="submit" name="logout" value="Logout">
+      </form>
+
+    </div>
+  </div>
+</li>
+
+
 
       <!-- Nav Item - Charts -->
       
@@ -282,7 +289,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Spring Bank Plc</span>
+            <span>Copyright &copy; The Spiral Vault</span>
           </div>
         </div>
       </footer>

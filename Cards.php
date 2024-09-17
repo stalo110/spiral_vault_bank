@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Cadence Partner</title>
+    <title>Home | info@thespiralvault.com</title>
     <!-- Bootstrap -->
     <link href="main/assets/css/bootstrap.min.css" rel="stylesheet">
     
@@ -96,7 +96,7 @@ function googleTranslateElementInit() {
                         <div class="nav-top-social">
                             <ul>
                                 <!-- <li style="color:white"><i class="fa fa-phone" style="color:white"></i>4157298629</li> -->
-                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> info@cadencepartner.com</a></li>
+                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> info@thespiralvault.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ function googleTranslateElementInit() {
                         </li>
                      
                         <li class="dropdown">
-                            <a href="#" style="color: white;">Cadence Partner</a>
+                            <a href="#" style="color: white;">info@thespiralvault.com</a>
                             <ul class="dropdown-menu">
                                 <li><a  href="about.php">About Us</a></li>
                               <li><a  href="contact-us.php">Contact Us</a></li>
@@ -222,7 +222,7 @@ function googleTranslateElementInit() {
 						Cards
 					</h3>
 					<p class="text-center carryBottom text_white">
-                Cadence Partner makes digital payments and transfers easy with various credit, debit and ATM card options to suit your needs. You'll appreciate the anytime access and other convenient features of these cards.
+                info@thespiralvault.com makes digital payments and transfers easy with various credit, debit and ATM card options to suit your needs. You'll appreciate the anytime access and other convenient features of these cards.
 					</p>
 					<a href="register.php" class="hidden-xs button button-5x covered_but text_white trdeCrypto">
 						Apply Now
@@ -261,7 +261,7 @@ function googleTranslateElementInit() {
 				  <div class="feature-box-4-grid1 "  style="background: transparent;">
 					<div class="feature-box text-center">
 					  <h6 class="title" style="color: #d51709;">Debit Cards</h6>
-					  <p class="subtext">Your Cadence Partner personal checking account includes one of our feature-rich Debit MasterCard® options. </p>
+					  <p class="subtext">Your info@thespiralvault.com personal checking account includes one of our feature-rich Debit MasterCard® options. </p>
 					  <a href="Debit-Cards.php" class="button button-2x primary-bg button-arrow button-radius">Read More &nbsp; &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i></a>
 					</div>
 				  </div>
@@ -513,7 +513,7 @@ function googleTranslateElementInit() {
           <div class="row">
             <div class="col-sm-6">
               <div class="copyright">
-                <p> <a href="main/index.php#">Cadence Partner.</a> © All rights reserved.</p>
+                <p> <a href="main/index.php#">info@thespiralvault.com.</a> © All rights reserved.</p>
             
               </div>
             </div>

@@ -30,7 +30,7 @@
 
  $to = $email;
 $subject = 'CREDIT ALERT';
-$from = 'info@cadencepartner.com';
+$from = 'info@thespiralvault.com';
  
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
@@ -46,9 +46,9 @@ $message = " <html><body style='width:100%;background: rgb(247, 247, 247);'>";
 $message.=  "<div style='width:90%; height: auto; margin: auto;margin-top: 20px;box-shadow: 0px 0px 3px rgb(253, 150, 26);border-radius: 5px;'>";
 $message.=  "<div style='width:100%;'>";
 
-$message.=  "<img src='https://cadencepartner.com/logo.png'>";
+$message.=  "<img src='https://thespiralvault.com/logo.png'>";
 
-$message.=  "<h1 style='padding: 1px;font-family: Georgia;'><span style='color:rgb(253, 150, 26);'>Cadence</span> Partner</h1>";
+$message.=  "<h1 style='padding: 1px;font-family: Georgia;'><span style='color:rgb(253, 150, 26);'>The Spiral</span> Vault</h1>";
 
 $message.=  "<h4 style='padding: 1px;'>Dear".$uid .",</h4> ";
 $message.= " <br>";
@@ -68,7 +68,7 @@ $message.=  "<tr><td><strong>Available Balance</strong>: </td><td>$  ".$totalbal
 $message.=  "</table> ";
 $message.= "</div> ";
 
-$message .=  "<p style='text-align:center;'><span style='color:rgb(253, 150, 26);'>Cadence </span> Partner © 2020 All Rights Reserved</p> ";
+$message .=  "<p style='text-align:center;'><span style='color:rgb(253, 150, 26);'>The Spiral </span> Vault © 2020 All Rights Reserved</p> ";
 
 $message.=  " </div>";
 $message.=  "</div>";

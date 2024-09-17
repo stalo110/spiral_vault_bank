@@ -1,16 +1,20 @@
 <?php
 
-//this is the database connection
-// $server="localhost";
-// $username="root";
-// $pwd="";
-// $dbname="bank1";
+// this is the database connection
+$server="localhost";
+$username="root";
+$pwd="";
+$dbname="spiralvault"; 
 
 
- $server="localhost";
- $username="cadezplf_user1";
- $pwd="?gSbjVocie2D";
-$dbname="cadezplf_database";
+
+//  $server="localhost";
+//  $username="thespira_user";
+//  $pwd="O{cu3N4xf2m*";
+// $dbname="thespira_database";
+
+
+
 
 
 //query the connection

@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Spring Bank Plc</title>
+    <title>Home | The</title>
     <!-- Bootstrap -->
     <link href="main/assets/css/bootstrap.min.css" rel="stylesheet">
     
@@ -96,7 +96,7 @@ function googleTranslateElementInit() {
                         <div class="nav-top-social">
                             <ul>
                                 <!-- <li style="color:white"><i class="fa fa-phone" style="color:white"></i>4157298629</li> -->
-                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> contact@springbankplc.org</a></li>
+                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> info@thespitalvault.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ function googleTranslateElementInit() {
                         </li>
                      
                         <li class="dropdown">
-                            <a href="#" style="color: white;">Urban Bank Base</a>
+                            <a href="#" style="color: white;">The</a>
                             <ul class="dropdown-menu">
                                 <li><a  href="about.php">About Us</a></li>
                               <li><a  href="contact-us.php">Contact Us</a></li>
@@ -339,7 +339,7 @@ function googleTranslateElementInit() {
           <div class="row">
             <div class="col-sm-6">
               <div class="copyright">
-                <p> <a href="main/index.php#">Urban Bank Base.</a> © All rights reserved.</p>
+                <p> <a href="main/index.php#">The.</a> © All rights reserved.</p>
             
               </div>
             </div>

@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Cadence Partner</title>
+    <title>Home | The Spiral Vault</title>
     <!-- Bootstrap -->
     <link href="main/assets/css/bootstrap.min.css" rel="stylesheet">
     
@@ -96,7 +96,7 @@ function googleTranslateElementInit() {
                         <div class="nav-top-social">
                             <ul>
                                 <!-- <li style="color:white"><i class="fa fa-phone" style="color:white"></i>4157298629</li> -->
-                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> info@cadencepartner.com</a></li>
+                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> info@thespiralvault.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ function googleTranslateElementInit() {
                         </li>
                      
                         <li class="dropdown">
-                            <a href="#" style="color: white;">Cadence Partner</a>
+                            <a href="#" style="color: white;">The Spiral Vault</a>
                             <ul class="dropdown-menu">
                                 <li><a  href="about.php">About Us</a></li>
                               <li><a  href="contact-us.php">Contact Us</a></li>
@@ -220,7 +220,7 @@ function googleTranslateElementInit() {
 						Careers
 					</h3>
 					<p class="text-center carryBottom text_white">
-						 Cadence Partner is the international financial organization - and one of Europe’s leading banks
+						 The Spiral Vault is the international financial organization - and one of Europe’s leading banks
                     </p>
 					
 				</div>
@@ -237,7 +237,7 @@ function googleTranslateElementInit() {
               <div class="image-content image-content-3">
                 <div class="section-heading">
                   <h3 class="title my-title" style="color:#d51709; margin-bottom: 20px; ">Opportunities with <span style="color:#E3AF15;"><br>Europe's leading bank </span></h3>
-                  <p class="subtext">Everyone who works at Cadence Partner  works in partnership with their colleagues, lending support and encouragement 
+                  <p class="subtext">Everyone who works at The Spiral Vault  works in partnership with their colleagues, lending support and encouragement 
                   whenever and wherever it may be required.
                   </p>
                   <br>
@@ -250,7 +250,7 @@ function googleTranslateElementInit() {
                   </p>
                   <br>
                   <p>
-                      If you think we could make a good fit, then please e-mail your CV to <a href="#">contact@springbankplc.org</a>
+                      If you think we could make a good fit, then please e-mail your CV to <a href="#">info@thespiralvault.com</a>
                   </p>
                   <br>
                   <p>
@@ -517,7 +517,7 @@ function googleTranslateElementInit() {
           <div class="row">
             <div class="col-sm-6">
               <div class="copyright">
-                <p> <a href="main/index.php#">Cadence Partner.</a> © All rights reserved.</p>
+                <p> <a href="main/index.php#">The Spiral Vault.</a> © All rights reserved.</p>
             
               </div>
             </div>

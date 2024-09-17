@@ -63,7 +63,7 @@ if(isset($_SESSION['username']))
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<!-- {{-- <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon"> --}} -->
-        <title>Cadence Partner</title>		
+        <title>The Spiral Vault</title>		
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
 		<!-- Google Font -->
@@ -299,7 +299,7 @@ if(isset($_SESSION['username']))
 
 
 <label style="cursor:pointer; width:100%;" id="copy-address" data-clipboard-target="div.reffl span">
- <div style='color:black;' class="reffl"><i class="pe-7s-mail-open-file" title="Copy Link" style='color:white;'></i> <span style='color:white;'>info@cadencepartner.com</span></div>
+ <div style='color:black;' class="reffl"><i class="pe-7s-mail-open-file" title="Copy Link" style='color:white;'></i> <span style='color:white;'>info@thespiralvault.com</span></div>
 </label>
 </div>
   </div> 

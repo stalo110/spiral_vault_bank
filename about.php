@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Cadence Partner</title>
+    <title>Home | The Spiral Vault</title>
     <!-- Bootstrap -->
     <link href="main/assets/css/bootstrap.min.css" rel="stylesheet">
     
@@ -96,7 +96,7 @@ function googleTranslateElementInit() {
                         <div class="nav-top-social">
                             <ul>
                                 <!-- <li style="color:white"><i class="fa fa-phone" style="color:white"></i>4157298629</li> -->
-                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i>info@cadencepartner.com</a></li>
+                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i>info@Spiral Vaultltd.com</a></li>
                             </ul>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ function googleTranslateElementInit() {
                         </li>
                      
                         <li class="dropdown">
-                            <a href="#" style="color: white;">Cadence Partner</a>
+                            <a href="#" style="color: white;">The Spiral Vault</a>
                             <ul class="dropdown-menu">
                                 <li><a  href="about.php">About Us</a></li>
                               <li><a  href="contact-us.php">Contact Us</a></li>
@@ -216,9 +216,9 @@ function googleTranslateElementInit() {
         <img src="main/images/about/about_us_image.png" class="manage-height" data-pagespeed-url-hash="2461754520" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
         <div class="holdWriteUp">
           <h3 class="text-center carryTop text_white">
-            About Cadence Partner          </h3>
+            About The Spiral Vault          </h3>
           <p class="text-center carryBottom text_white">
-             Cadence Partner was Established in 2015 with a license of an European broker regulated by the Financial Conduct Authority (FCA), license No. 191/13.
+             The Spiral Vault was Established in 2015 with a license of an European broker regulated by the Financial Conduct Authority (FCA), license No. 191/13.
           </p>
         </div>
         </div>
@@ -271,9 +271,9 @@ function googleTranslateElementInit() {
                   <div class="right-content">
                     <div class="image-content image-content-3">
                       <div class="section-heading">
-                        <p class="subtext">Cadence Partner leads the pack when it comes to Banking. Whether you’re a skilled or completely new to online banking, our platforms give you the tools needed to take advantage of the foreign exchange market’s volatility.
+                        <p class="subtext">The Spiral Vault leads the pack when it comes to Banking. Whether you’re a skilled or completely new to online banking, our platforms give you the tools needed to take advantage of the foreign exchange market’s volatility.
 
-      With Cadence Partner it’s simple to get started trading Forex, and it’s easy to get the education needed to hone your skills. You’ll be able to benefit from one on one support from our specialist team and develop your expertise with our professional Forex trading resources and insights. For beginner and advanced traders alike we offer high leverage, guaranteed stop losses on every Forex trade, and our fixed spreads remain constant to give you greater strategic power and control.
+      With The Spiral Vault it’s simple to get started trading Forex, and it’s easy to get the education needed to hone your skills. You’ll be able to benefit from one on one support from our specialist team and develop your expertise with our professional Forex trading resources and insights. For beginner and advanced traders alike we offer high leverage, guaranteed stop losses on every Forex trade, and our fixed spreads remain constant to give you greater strategic power and control.
 
       Get Started with us Today, and experience a swift journey filled with excitement.</p>
                         <ul class="image-content-list">
@@ -657,7 +657,7 @@ function googleTranslateElementInit() {
           <div class="row">
             <div class="col-sm-6">
               <div class="copyright">
-                <p> <a href="main/index.php#">Cadence Partner.</a> © All rights reserved.</p>
+                <p> <a href="main/index.php#">The Spiral Vault.</a> © All rights reserved.</p>
             
               </div>
             </div>

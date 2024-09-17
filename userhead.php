@@ -63,7 +63,7 @@ if(isset($_SESSION['username']))
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
         <link rel="shortcut icon" type="image/x-icon" href="img/apex.png" />
-        <title>Casence Partner</title>		
+        <title>The Spiral Vault</title>		
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
 		<!-- Google Font -->
