@@ -96,7 +96,7 @@ function googleTranslateElementInit() {
                         <div class="nav-top-social">
                             <ul>
                                 <!-- <li style="color:white"><i class="fa fa-phone" style="color:white"></i>4157298629</li> -->
-                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> info@Spiral Vaultltd.com</a></li>
+                                <li style="color:white"><a style="color:white !important" href="contact-us.php"><i style="color:white" class="fa fa-envelope" aria-hidden="true"></i> info@thespiralvault.com</a></li>
                             </ul>
                         </div>
                     </div>

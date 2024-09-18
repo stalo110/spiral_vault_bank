@@ -1,96 +1,118 @@
 <?php
 
-	if(isset($_POST['cred'])){
+include 'db.php';
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-		include 'db.php';
-		
+require '../PHPMailer-master/src/Exception.php';
+require '../PHPMailer-master/src/PHPMailer.php';
+require '../PHPMailer-master/src/SMTP.php';
 
-		$acctna = $_POST['acctname'];
-		$acctnumb = $_POST['acctnumb'];
-		$amoun = $_POST['amoun'];
-		$email = $_POST['email'];
-		$acctbal = $_POST['acctbal'];
-		 $uid = $_POST['uid'];
+if (isset($_POST['cred'])) {
 
-		$totalbal = $acctbal + $amoun;
-         $date= date('Y-m-d H:i:s a');
-         $decrip ="our BANK";
+    $acctna = mysqli_real_escape_string($conn, $_POST['acctname']);
+    $acctnumb = mysqli_real_escape_string($conn, $_POST['acctnumb']);
+    $amoun = mysqli_real_escape_string($conn, $_POST['amoun']);
+    $email = mysqli_real_escape_string($conn, $_POST['email']);
+    $acctbal = mysqli_real_escape_string($conn, $_POST['acctbal']);
+    $uid = mysqli_real_escape_string($conn, $_POST['uid']);
 
+    $totalbal = $acctbal + $amoun;
+    $date = date('Y-m-d H:i:s a');
+    $decrip = "our BANK";
 
-		 $sql = "UPDATE users
+    // Use a prepared statement to update the user's balance
+    $stmt = $conn->prepare("UPDATE users SET acctbal=? WHERE username=?");
+    $stmt->bind_param("ds", $totalbal, $uid);
 
-        SET acctbal='$totalbal'
+    if ($stmt->execute()) {
 
-        WHERE username='$uid'
+        // Send email using PHPMailer
+        $mail = new PHPMailer(true);
 
-        ";
+        try {
+            // Server settings
+            $mail->isSMTP();
+            $mail->Host = 'mail.thespiralvault.com'; // Set the SMTP server to send through
+            $mail->SMTPAuth = true;
+            $mail->Username = 'info@thespiralvault.com'; // SMTP username
+            $mail->Password = '@Spiral001'; // SMTP password
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS; // Enable SSL encryption
+            $mail->Port = 465; // TCP port to connect to
 
-        
+            // Recipients
+            $mail->setFrom('info@thespiralvault.com', 'Spiral Vault');
+            $mail->addAddress($email); // Add recipient email
 
- $to = $email;
-$subject = 'CREDIT ALERT';
-$from = 'info@thespiralvault.com';
- 
-// To send HTML mail, the Content-type header must be set
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
- 
-// Create email headers
-$headers .= 'From: '.$from."\r\n".
-    'Reply-To: '.$from."\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+            // Content
+            $mail->isHTML(true); // Enable HTML format for better styling
+            $mail->Subject = 'CREDIT ALERT. Your Account was Successfully credited';
 
+            $mail->Body = "
+                <html>
+                <head>
+                    <style>
+                        body {
+                            font-family: Arial, sans-serif;
+                            color: #333;
+                            line-height: 1.6;
+                        }
+                        h2 {
+                            color: #0044cc;
+                        }
+                        .content {
+                            background-color: #f9f9f9;
+                            padding: 20px;
+                            border-radius: 5px;
+                        }
+                        .footer {
+                            margin-top: 20px;
+                            font-size: 12px;
+                            color: #777;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <div class='content'>
+                        <img src='https://thespiralvault.com/logo.png' alt='Logo'>
+                        <h2>Dear $acctna,</h2>
+                        <p>We are pleased to inform you that your account has been successfully credited.</p>
+                        <p>Below are the details:</p>
 
-$message = " <html><body style='width:100%;background: rgb(247, 247, 247);'>";
-$message.=  "<div style='width:90%; height: auto; margin: auto;margin-top: 20px;box-shadow: 0px 0px 3px rgb(253, 150, 26);border-radius: 5px;'>";
-$message.=  "<div style='width:100%;'>";
+                        <table style='padding:8px;line-height: 30px;margin-left: 0px;'>
+                            <tr><td><strong>Credit/Debit:</strong></td><td>Credit</td></tr>
+                            <tr><td><strong>Account Name:</strong></td><td>$acctna</td></tr>
+                            <tr><td><strong>Account Number:</strong></td><td>$acctnumb</td></tr>
+                            <tr><td><strong>Date/Time:</strong></td><td>$date</td></tr>
+                            <tr><td><strong>Description:</strong></td><td>$decrip</td></tr>
+                            <tr><td><strong>Amount:</strong></td><td>$ $amoun</td></tr>
+                            <tr><td><strong>Balance:</strong></td><td>$ $totalbal</td></tr>
+                            <tr><td><strong>Available Balance:</strong></td><td>$ $totalbal</td></tr>
+                        </table>
 
-$message.=  "<img src='https://thespiralvault.com/logo.png'>";
+                        <p>We look forward to serving you and ensuring you have the best experience with us.</p>
+                        <p>Best regards,<br><strong>The Spiral Vault Team</strong></p>
+                    </div>
+                    <div class='footer'>
+                        <p>This is an automated message. Please do not reply to this email. If you need support, contact us at info@thespiralvault.com.</p>
+                    </div>
+                </body>
+                </html>
+            ";
 
-$message.=  "<h1 style='padding: 1px;font-family: Georgia;'><span style='color:rgb(253, 150, 26);'>The Spiral</span> Vault</h1>";
+            $mail->send();
+            echo 'Message has been sent';
 
-$message.=  "<h4 style='padding: 1px;'>Dear".$uid .",</h4> ";
-$message.= " <br>";
-$message.=  "<h3 style='text-align:center;font-family: Georgia;'>Transaction Alert</h3>";
-$message.=  "<div style='width:100%;height: auto;box-shadow: 0px 0px 3px rgb(253, 150, 26);margin: auto;border-radius: 6px;'>";
-$message.=  "<table style='padding:8px;line-height: 30px;margin-left: 0px;'>";
+        } catch (Exception $e) {
+            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        }
 
-$message.=  "<tr><td><strong>Credit/Debit</strong>: </td><td>  Credit   </td></tr>";
-$message.= "<tr><td><strong>Account Name</strong>: </td><td>".$acctna. "</td></tr>";
-$message.=  "<tr><td><strong>Account Number</strong>: </td><td>  ".$accttype. "</td></tr>";
-$message.=  "<tr><td><strong>Date/Time</strong>: </td><td>  ".$date. "</td></tr> ";
-$message.=  "<tr><td><strong>Description</strong>: </td><td>  ".$decrip. "</td></tr>";
-$message.=  "<tr><td><strong>Amount</strong>: </td><td>$  ".$amoun. "</td></tr> ";
-$message.=  "<tr><td><strong>Balance</strong>:</td><td>$  ".$totalbal. " </td></tr> ";
-$message.=  "<tr><td><strong>Available Balance</strong>: </td><td>$  ".$totalbal. " </td></tr> ";
+        header("Location: ../op.php?credit=success");
+        exit();
 
-$message.=  "</table> ";
-$message.= "</div> ";
-
-$message .=  "<p style='text-align:center;'><span style='color:rgb(253, 150, 26);'>The Spiral </span> Vault © 2020 All Rights Reserved</p> ";
-
-$message.=  " </div>";
-$message.=  "</div>";
-$message.=  "</body></html>";
-
-
-
-
-
-
-	mail($to, $subject, $message, $headers);
-
-         // mail($mailTo,$sub,$txt,$header);
-
-
-        mysqli_query($conn,$sql);
-
-        header("Location:../op.php?credit=success");
-		exit();
-
-
-	}else{
-		header("Location:../admin.php?error");
-		exit();
-	}
+    } else {
+        header("Location: ../admin.php?error");
+        exit();
+    }
+}
